@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
-import { FaBuilding, FaCalendarAlt, FaCode, FaChartLine } from 'react-icons/fa';
+import { FaBuilding, FaCalendarAlt, FaChartLine } from 'react-icons/fa';
 
 const CareerContainer = styled.div`
   min-height: 100vh;

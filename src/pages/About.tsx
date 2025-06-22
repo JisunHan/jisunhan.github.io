@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
-import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaGit, FaPalette } from 'react-icons/fa';
+import { FaReact, FaJs, FaHtml5, FaGit, FaPalette } from 'react-icons/fa';
 import { SiTypescript, SiVite } from 'react-icons/si';
 import { BiStore } from 'react-icons/bi';
 
