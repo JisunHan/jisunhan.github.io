@@ -34,6 +34,6 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "pnpm run build && gh-pages -d dist -b main"
   }
 }
