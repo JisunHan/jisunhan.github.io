@@ -35,6 +35,6 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "predeploy": "pnpm run build",
-    "deploy": "pnpm run build && node scripts/deploy.js"
+    "deploy": "pnpm run build && gh-pages -d dist"
   }
 }
