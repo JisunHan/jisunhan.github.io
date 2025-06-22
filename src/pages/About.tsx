@@ -82,43 +82,6 @@ const TechDescription = styled.p`
   line-height: 1.5;
 `;
 
-const ExperienceGrid = styled.div`
-  display: grid;
-  gap: ${({ theme }) => theme.spacing.xl};
-  margin-top: ${({ theme }) => theme.spacing.xl};
-`;
-
-const ExperienceCard = styled(motion.div)`
-  background: white;
-  border: 1px solid ${({ theme }) => theme.colors.gray.light};
-  border-radius: 12px;
-  padding: ${({ theme }) => theme.spacing.xl};
-  transition: box-shadow 0.2s ease;
-
-  &:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  }
-`;
-
-const ExperienceTitle = styled.h3`
-  font-size: ${({ theme }) => theme.typography.fontSize.xl};
-  font-weight: 600;
-  margin-bottom: ${({ theme }) => theme.spacing.sm};
-  color: ${({ theme }) => theme.colors.primary};
-`;
-
-const ExperiencePeriod = styled.p`
-  font-size: ${({ theme }) => theme.typography.fontSize.sm};
-  color: ${({ theme }) => theme.colors.gray.medium};
-  margin-bottom: ${({ theme }) => theme.spacing.md};
-`;
-
-const ExperienceDescription = styled.p`
-  font-size: ${({ theme }) => theme.typography.fontSize.base};
-  line-height: 1.6;
-  color: ${({ theme }) => theme.colors.text};
-`;
-
 const EducationGrid = styled.div`
   display: grid;
   gap: ${({ theme }) => theme.spacing.lg};
