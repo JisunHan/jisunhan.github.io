@@ -1,4 +1,9 @@
 {
+  "name": "jisunhan-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://jisunhan.github.io",
   "devDependencies": {
     "@emotion/babel-plugin": "^11.13.5",
     "@types/react": "^19.1.0",
@@ -27,6 +32,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "lint": "eslint src --ext .ts,.tsx",
-    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "deploy": "npm run build && gh-pages -d dist"
   }
 }
