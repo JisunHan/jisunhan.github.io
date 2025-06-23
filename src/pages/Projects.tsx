@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { FaMapMarkerAlt, FaCalculator, FaGift, FaEye } from 'react-icons/fa';
 import { useState } from 'react';
-import React from 'react';
 
 const ProjectsContainer = styled.div`
   min-height: 100vh;
