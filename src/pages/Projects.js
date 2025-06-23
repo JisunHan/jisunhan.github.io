@@ -191,7 +191,7 @@ const Projects = () => {
             title: '💰 아큐브 ECP 최대혜택가 개발',
             period: '2025.04 ~ 2025.05',
             personnel: 'FE 2명 / BE 1명',
-            contribution: '기여도 100%',
+            contribution: '기여도 30%',
             description: '주문 페이지에서 고객이 받을 수 있는 할인, 쿠폰, 포인트 등을 실시간으로 반영해 최종 결제 금액을 직관적으로 보여주는 기능을 구현했습니다.',
             icon: (0, jsx_runtime_1.jsx)(fa_1.FaCalculator, {}),
             image: '/images/mvip.png',
